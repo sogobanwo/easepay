@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className='w-full px-[5%] bg-[#050110]/[.89]'>
       <Header />
       <Hero />
-      <div className="w-full">
+      <div className="w-full flex justify-center items-center">
       <Image src={sandbox} alt="sandbox" className="-mt-12 flex justify-center"/>
       </div>
       <Faq />

@@ -6,7 +6,7 @@ import { Facebook, Instagram, Xrp, Youtube } from "iconsax-react";
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className="my-8 flex w-full">
         <div className="flex">
           <div className="flex justify-evenly w-[55%] items-start">
             <Image src={logo} alt="logo" width="" height="" />
@@ -43,10 +43,10 @@ const Footer = () => {
           </p>
           <div>
             <input type="text" placeholder="Enter your email" />
-            <button className="p-4 border-2 border-[#ffffff]">Subscribe</button>
+            <button className="p-4 border-2 border-[#ffffff] text-[#fff]">Subscribe</button>
           </div>
-          <p className="text-[14px] my-8">
-            By subscribing you agree with our <a>Privacy Policy</a> and provide
+          <p className="text-[14px] my-8 text-[#fff]">
+            By subscribing you agree with our <a className=" text-[#fff]">Privacy Policy</a> and provide
             consent to receive updates from our company
           </p>
         </div>
@@ -54,10 +54,10 @@ const Footer = () => {
       <hr className="w-full text-[2px]" />
       <div className="flex w-full justify-between items-center">
         <div className="flex justify-evenly items-center w-[50%]">
-          <p>© 2023 Relume. All rights reserved.</p>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Cookie Settings</a>
+          <p className=" text-[#fff]">© 2023 Relume. All rights reserved.</p>
+          <a className=" text-[#fff]" href="#">Privacy Policy</a>
+          <a className=" text-[#fff]" href="#">Terms of Service</a>
+          <a className=" text-[#fff]" href="#">Cookie Settings</a>
         </div>
         <div className="flex justify-evenly items-center w-[50%]">
           <Facebook size="32" color="#ffffff" />

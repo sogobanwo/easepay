@@ -5,13 +5,13 @@ const Arcodion = () => {
   return (
     <>
     <div>
-      <p className="flex justify-between items-center p-4 w-full border-2 border-[#ffffff] my-4 text-[24px] font-bold">
+      <p className="flex justify-between items-center p-4 w-full border-2 border-[#ffffff] my-4 text-[24px] font-bold  text-[#fff]">
         When do we launch? <Add size="32" color="#fff" className="Font-bold" />
       </p>
-      <p className="flex justify-between items-center p-4 w-full border-2 border-[#fff] my-4 text-[24px] font-bold">
+      <p className="flex justify-between items-center p-4 w-full border-2 border-[#fff] my-4 text-[24px] font-bold  text-[#fff]">
         When do we launch? <Add size="32" color="#fff" className="Font-bold" />
       </p>
-      <p className="flex justify-between items-center p-4 w-full border-2 border-[#fff] my-4 text-[24px] font-bold">
+      <p className="flex justify-between items-center p-4 w-full border-2 border-[#fff] my-4 text-[24px] font-bold  text-[#fff]">
         When do we launch? <Add size="32" color="#fff" className="Font-bold" />
       </p>
     </div>

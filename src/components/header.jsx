@@ -13,7 +13,7 @@ const Header = () => {
         <p className="text-base mx-[16px] text-[#ffffff]">Resources</p>
         <p className="text-base mx-[16px] flex gap-2 items-center text-[#ffffff]" >Company <ArrowDown2 size="16" color="#ffffff"/></p>
       </div>
-      <p className="text-base m-[16px] border-2 text-[#ffffff] border-[#ffffff]">Contact Us</p>
+      <p className="text-base m-[16px] border-2 p-3 text-[#ffffff] border-[#ffffff]">Contact Us</p>
     </div>
   );
 };
